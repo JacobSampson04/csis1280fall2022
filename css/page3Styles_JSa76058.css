@@ -1,0 +1,244 @@
+/* wide mode */
+@media only screen and (min-width: 1601px){
+    .part_1{
+        margin: 50px 10px 10px 10px;
+    }
+    
+    section{
+        margin: 10px;
+        border: 2px solid rgb(192, 192, 192);
+    }
+    
+    img{
+        max-height: 200px;
+    }
+    
+    #snippetContainer1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet1Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet2Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+
+    #snippetContainer3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet3Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+}
+
+/* desktop mode */
+@media only screen and (max-width: 1600px){
+    .part_1{
+        margin: 50px 10px 10px 10px;
+    }
+    
+    section{
+        margin: 10px;
+        border: 2px solid rgb(192, 192, 192);
+    }
+    
+    img{
+        max-height: 200px;
+    }
+    
+    #snippetContainer1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet1Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet2Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+
+    #snippetContainer3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet3Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+}
+
+/* tablet mode */
+@media only screen and (max-width: 1023px){
+    .part_1{
+        margin: 50px 10px 10px 10px;
+    }
+    
+    section{
+        margin: 10px;
+        border: 2px solid rgb(192, 192, 192);
+    }
+    
+    img{
+        max-height: 200px;
+    }
+    
+    #snippetContainer1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet1Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet2Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+
+    #snippetContainer3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet3Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+}
+
+/* mobile mode */
+@media only screen and (max-width: 970px){
+    .part_1{
+        margin: 100px 10px 10px 10px;
+    }
+    
+    section{
+        margin: 10px;
+        border: 2px solid rgb(192, 192, 192);
+    }
+    
+    img{
+        max-height: 120px;
+    }
+    
+    #snippetContainer1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet1Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet2Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet3Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+}
+
+/* small mode */
+@media only screen and (max-width: 414px){
+    .part_1{
+        margin: 100px 10px 10px 10px;
+    }
+    
+    section{
+        margin: 10px;
+        border: 2px solid rgb(192, 192, 192);
+    }
+    
+    img{
+        max-height: 100px;
+    }
+    
+    #snippetContainer1{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet1Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+    
+    #snippetContainer2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet2Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+
+    #snippetContainer3{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
+    .snippet3Item{
+        margin: 5px;
+        flex-basis: 1 1 400px;
+    }
+}

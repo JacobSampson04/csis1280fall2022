@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jacob Sampson">
+        <meta name="viewport" content="width=device-width">
+
+        <link href="css/styles_JSa76058.css" rel="stylesheet">
+        <link href="css/indexStyles_JSa76058.css" rel="stylesheet">
+        <link href="css/validation_JSa76058.css" rel="stylesheet">
+        <script src="script/script_JSa76058.js"></script>
+        <script src="script/validation_JSa76058.js"></script>
+        <script src="script/display_JSa76058.js"></script>
+        <script src="script/chooseVideo_JSa76058.js"></script>
+    </head>
+    <body>
+        <noscript>Your browser does not support JavaScript, but it is required to run this page.</noscript>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction to Web Development</A></li>
+                <li><a href="page2_JSa76058.html">Some Cool Tricks</A></li>
+                <li><a href="page3_JSa76058.html">Behind The Scenes</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <section class="introduction">
+                <h1>An Introduction to Web Development:</h1>
+                <p>Learning to develope websites can lead a person to create many interesting things! The purpose of this website is 
+                    to showcase the wonders of programing and the amazing things a person can do once they have learned to code. Below are some 
+                    forms and embedded videos to help demonstrate the capabilities of programing.</p>
+            </section>
+
+            <section class="aboutUser">
+                <form name="userForm" action='' method="get">
+                    <fieldset>
+                        <legend>Level of Experience</legend>
+                        <div>
+                            <label for="firstName">What's your first name?</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="John" pattern="[A-Za-z]{1,20}" required>
+                        </div>
+                        <div>
+                            <label for="lastName">What's your last name?</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Doe" pattern="[A-Za-z]{1,30}" required>
+                        </div>
+                        <div>
+                            <label for="experience">Have you coded before?</label>
+                            <span>
+                                <input type="radio" name="experience" id="experienceYes" value="yes" required> Yes
+                                <input type="radio" name="experience" id="experienceNo" value="no" required> No
+                            </span>
+                        </div>
+                        <div>
+                            <label for="comfortZone">Would you be comfortable coding something more difficult?</label>
+                            <span>
+                                <input type="radio" name="comfortZone" id="comfortZoneYes" value="yes" required> Yes
+                                <input type="radio" name="comfortZone" id="comfortZoneNo" value="no" required> No
+                            </span>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit Information" onclick="return runUserForm(this.form)">
+                            <input type="reset" value="Clear Form">
+                        </div>
+                        <div id="userLevel">
+                            <!--Target for form data-->
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="introVideo">
+                <form name="selectVideo" action='' method="get">
+                    <fieldset id="videoForm">
+                        <legend>Introductory Video</legend>
+                        <div>
+                            <select name="videoSelect" onchange="chooseVideo()" required>
+                                <optgroup label="Where to Start:">
+                                    <option id="videoSelectNone" value="">Please select an option</option>
+                                    <option id="videoSelectIntro" value="intro">Intro</option>
+                                    <option id="videoSelectInter" value="intermediate">Intermediate</option>
+                                    <option id="videoSelectExpert" value="expert">Expert</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div id="video_target">                    
+                            <!--Target for video select-->
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="checkList">
+                <form>
+                    <fieldset>
+                        <legend>Getting Started</legend>
+                        <div>
+                            <label for="checkList">To Do List:</label>
+                            <span>
+                                <input type="checkbox" name="checkList" value="readIntro"> Have you read the introduction above? <br>
+                                <input type="checkbox" name="checkList" value="surveyCheck"> Have you taken the survey above? <br>
+                                <input type="checkbox" name="checkList" value="videoCheck"> Have you watched the video above? <br>
+                            </span>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+    
+            <footer>
+                <hr>
+                <small>Copyright &copy; Jacob Sampson CSIS 1280 Fall 2022</small>
+            </footer>
+        </article>
+    </body>
+</html>

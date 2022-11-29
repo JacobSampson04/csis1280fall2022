@@ -1,0 +1,9 @@
+input#firstName:focus:valid,
+input#lastName:focus:valid{
+    background: rgb(207, 248, 207);
+}
+
+input#firstName:focus:invalid,
+input#lastName:focus:invalid{
+    background: rgb(192, 111, 102);
+}

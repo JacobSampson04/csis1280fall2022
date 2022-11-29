@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 2</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jacob Sampson">
+        <meta name="viewport" content="width=device-width">
+
+        <link href="css/styles_JSa76058.css" rel="stylesheet">
+        <link href="css/page2Styles_JSa76058.css" rel="stylesheet">
+        <script src="script/script_JSa76058.js"></script>
+        <script src="script/selectFlex_JSa76058.js"></script>
+        <script src="script/chaseTroll_JSa76058.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction to Web Development</A></li>
+                <li><a href="page2_JSa76058.html">Some Cool Tricks</A></li>
+                <li><a href="page3_JSa76058.html">Behind The Scenes</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <section class="changingFlex">
+                <div id="changingContainer" class="flexContainer1">
+                    <div class="flexItem">
+                        <select name="containerSelect" onchange="selectFlex()" required>
+                            <optgroup label="Pick an Option to Shake Things Up!">
+                                <option id="containerSelect1" value="cont1">First Flex Option</option>
+                                <option id="containerSelect2" value="cont2">Second Flex Option</option>
+                                <option id="containerSelect3" value="cont3">Third Flex Option</option>
+                                <option id="containerSelect4" value="cont4">Fourth Flex Option</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="flexItem">
+                        <p>In one of the surrounding boxes is a select input, it is set up to change the order of this flexbox when changed.</p>
+                    </div>
+                    <div class="flexItem">
+                        <p>In the second section below is an image of a troll face, catch it if you can!</p>
+                    </div>
+                    <div class="flexItem">
+                        <p>In the last section below is a hidden treasure, can you find it?</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="untouchableTroll">
+                <div id="trollDiv">
+                    <img src="images/trollFace.jpg" alt="Troll Face Meme" id="trollImg" onmouseover="chaseTroll(this)">
+                </div>
+            </section>
+    
+            <section class="treasureHunt">
+                <div id="treasureDiv">
+                    <img src="images/treasureChest.JPG" alt="Treasure Chest" id="treasureImg"><!--Is suppose to have onclick, but is pointless since script isn't working-->
+                    <small>(Work in progress: Treasure is not currently findable)</small>
+                </div>
+            </section>
+    
+            <footer>
+                <hr>
+                <small>Copyright &copy; Jacob Sampson CSIS 1280 Fall 2022</small>
+            </footer>
+        </article>
+    </body>
+</html>

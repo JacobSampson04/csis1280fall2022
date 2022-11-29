@@ -1,0 +1,109 @@
+#trollImg{
+    width: 20%;
+}
+
+#trollDiv{
+    display: inline-block;
+}
+
+#treasureImg{
+    width: 15%;
+    opacity: 0%;
+}
+
+#treasureDiv{
+    display: inline-block;
+}
+
+.changingFlex{
+    margin: 50px 10px 10px 10px;
+    background-color: cadetblue;
+}
+
+#changingContainer{
+    text-align: center;
+}
+
+section{
+    margin: 10px;
+    border: 2px solid rgb(192, 192, 192);
+}
+
+.flexItem{
+    margin: 5px;
+    background-color: aliceblue;
+    border: 2px solid rgb(192, 192, 192);
+    flex: 1 1 400px;
+}
+
+.flexContainer1{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flexContainer2{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.flexContainer3{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.flexContainer4{
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+
+.flexContainer4 > .flexItem{
+    margin: 5px;
+    background-color: aliceblue;
+    border: 2px solid rgb(192, 192, 192);
+    flex: 1 1 75px;
+}
+
+/* medium */
+@media only screen and (max-width: 1104px){
+    .changingFlex{
+        margin: 50px 10px 10px 10px;
+        background-color: cadetblue;
+    }
+    
+    .flexItem{
+        margin: 5px;
+        background-color: aliceblue;
+        border: 2px solid rgb(192, 192, 192);
+        flex: 1 1 300px;
+    }
+}
+
+/* small */
+@media only screen and (max-width: 868px){
+    .changingFlex{
+        margin: 75px 10px 10px 10px;
+        background-color: cadetblue;
+    }
+    
+    .flexItem{
+        margin: 5px;
+        background-color: aliceblue;
+        border: 2px solid rgb(192, 192, 192);
+        flex: 1 1 200px;
+    }
+}
+
+/* smallest */
+@media only screen and (max-width: 567px){
+    .changingFlex{
+        margin: 100px 10px 10px 10px;
+        background-color: cadetblue;
+    }
+
+    .flexItem{
+        margin: 5px;
+        background-color: aliceblue;
+        border: 2px solid rgb(192, 192, 192);
+        flex: 1 1 100px;
+    }
+}
